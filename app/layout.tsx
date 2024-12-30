@@ -32,7 +32,9 @@ export default function RootLayout({
         defaultTheme="dark"
         enableSystem={false}
         storageKey="sidcord-theme">
+
         {children}
+        
         </ThemeProvider>
       </body>
     </html>
